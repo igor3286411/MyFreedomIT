@@ -163,6 +163,7 @@ footer p {
     gap: 19px;
 }
 
-.instagram, .vk{
-    display:block
+.instagram,
+.vk {
+    display: block;
 }
