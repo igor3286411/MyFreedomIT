@@ -175,7 +175,7 @@ footer p {
 
 @media (max-width: 1146px) {
   .container {
-    max-width: 90%;
+    max-width: 95%;
   }
 }
 @media (max-width: 992px) {
@@ -206,7 +206,18 @@ footer p {
   .main-1 {
     background-image: url(../images/fon3.jpg);
   }
+  .main-1 h1 {
+    font-size: 39px;
+  }
+  .main-1 p {
+    font-size: 18px;
+  }
   .card {
     width: 100%;
+  }
+  .footer-class {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
