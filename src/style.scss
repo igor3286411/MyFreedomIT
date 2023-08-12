@@ -72,6 +72,7 @@ ul a {
     background-size: cover;
     padding-top: 126px;
     padding-bottom: 115px;
+    background-position: right;
 }
 
 h1 {
@@ -193,6 +194,7 @@ footer p {
     .main-1 {
         text-align: center;
         background-image: url(../images/fon2.jpg);
+        background-position: right;
     }
 
     .card {
@@ -214,6 +216,7 @@ footer p {
 
     .main-1 {
         background-image: url(../images/fon3.jpg);
+        background-position: right;
 
         h1 {
             font-size: 39px;
@@ -223,10 +226,13 @@ footer p {
     .card {
         width: 100%;
     }
+}
 
+@media (max-width: 500px){
+    
     .footer-class {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        row-gap: 30px;
     }
 }
